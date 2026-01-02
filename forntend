@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Appian – Intelligent Knowledge Panel</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+
+    <!-- Case Context -->
+    <div class="card">
+      <h2>Active Case</h2>
+      <p><strong>Claim Type:</strong> Flood</p>
+      <p><strong>State:</strong> Florida</p>
+      <p><strong>Claim Amount:</strong> $250,000</p>
+      <p><strong>Policy Version:</strong> 2024‑Q3</p>
+    </div>
+
+    <!-- Knowledge Panel -->
+    <div class="card highlight">
+      <h2>Just‑in‑Time Knowledge</h2>
+
+      <div class="policy">
+        <h3>Applicable Rule</h3>
+        <p>
+          Flood insurance claims above <strong>$100,000</strong> in Florida
+          require an <strong>independent damage assessment</strong> before approval.
+        </p>
+      </div>
+
+      <div class="why">
+        <h4>Why this applies</h4>
+        <ul>
+          <li>Claim Type: Flood</li>
+          <li>Jurisdiction: Florida</li>
+          <li>Amount exceeds review threshold</li>
+        </ul>
+      </div>
+
+      <div class="citation">
+        📄 <strong>FEMA Flood Insurance Manual 2024</strong><br/>
+        Page 47, Paragraph 3<br/>
+        <a href="#">View Source</a>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
